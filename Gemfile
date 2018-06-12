@@ -12,3 +12,9 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
+
+gem "rspec-rails", "~> 3.7", :groups => [:development, :test]
+
+gem "capybara", "~> 3.2", :groups => [:development, :test]
+
+gem "pry", "~> 0.11.3"
