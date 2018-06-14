@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @inspiration.link %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @inspiration.image %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @inspiration.title %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @inspiration.text %>
+</p>
+
+<%= link_to 'Edit', edit_inspiration_path(@inspiration) %> |
+<%= link_to 'Back', inspirations_path %>
